@@ -1,0 +1,24 @@
+/* ==========================================================================
+Global Styles
+========================================================================== */
+
+a {
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-property: color, border-color, background-color;
+    transition-property: color, border-color, background-color;
+}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+}
+a {
+    color: #e70e21;
+}
+a:hover, a:focus {
+    color: #f45160;
+    text-decoration: none;
+}
